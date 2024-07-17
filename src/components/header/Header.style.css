@@ -1,0 +1,11 @@
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__content {
+    width: 17vw;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+}

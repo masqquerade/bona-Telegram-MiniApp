@@ -1,0 +1,32 @@
+body {
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page__container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.page__arrows {
+    margin: 0 3vw 0 3vw;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page__buttons__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.page_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+}
