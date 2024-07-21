@@ -1,0 +1,15 @@
+.navigator__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navigator__container img:first {
+    background-color: green;
+}
+
+.touch_screen {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+}

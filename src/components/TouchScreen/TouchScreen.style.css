@@ -1,0 +1,13 @@
+.wrapper__touch_screen {
+    position: absolute;
+}
+
+.touch_element {
+    position: fixed;
+    height: 80vh;
+    width: 20vw;
+}
+
+.touch_element:first-child {
+   right: 0;
+}

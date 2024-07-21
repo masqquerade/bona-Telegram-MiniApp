@@ -1,35 +1,31 @@
-import { ActionButton } from "../components/UI/ActionButton";
-import { AttentionSvg } from "../components/svg/AttentionSvg";
-import { LoveMsgSvg } from "../components/svg/LoveMsgSvg";
-import { Header } from "../components/header/Header";
-import { ArrowSvg } from "../components/svg/ArrowSvg";
+import { Header } from "../components/Header/Header";
 
 import "./IndexPage.style.css";
+import { ButtonsHolder } from "../components/ButtonsHolder/ButtonsHolder";
+import { ArrowsNavigator } from "../components/ArrowsNavigator/ArrowsNavigator";
+import { MediaHolder } from "../components/MediaHolder/MediaHolder";
+import { TouchScreen } from "../components/TouchScreen/TouchScreen";
 
 export const IndexPage = () => {
     return (
         <div className="page__container">
-            <Header />
+            <div className="page__header">
+                <Header/>
+            </div>
+
+            <TouchScreen/>
 
             <div className="page__arrows">
-                <ArrowSvg direction={"left"} width={"2.5vw"}/>
-                <ArrowSvg direction={"right"} width={"2.5vw"}/>
+                <ArrowsNavigator/>
             </div>
 
-            <div className="page__buttons__container">
-                <div className="page_buttons">
-                    <ActionButton 
-                        SvgComponent={LoveMsgSvg} 
-                        bgOn={true} 
-                        borderOn={true}
-                    />
-
-                    <ActionButton 
-                        SvgComponent={AttentionSvg} 
-                    />  
-                </div>
+            <div className="page__media_holder">
+                <MediaHolder/>
             </div>
-
+            
+            <div className="page__buttons_holder">
+                <ButtonsHolder/>
+            </div>
         </div>
     )
 };

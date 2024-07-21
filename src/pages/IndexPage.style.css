@@ -1,32 +1,27 @@
-body {
-    background-image: url("3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .page__container {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    justify-content: space-between;
 }
 
 .page__arrows {
-    margin: 0 3vw 0 3vw;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: fixed;
+    top: 40%;
 }
 
-.page__buttons__container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2vh;
+.page__header {
+    margin: 3vh 2vw 1vh 0;
 }
 
-.page_buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 45vw;
+.page__media_holder {
+    flex-grow: 0.9;
+    overflow: hidden;
+}
+
+.page__buttons_holder {
+    margin-bottom: 3vh;
 }

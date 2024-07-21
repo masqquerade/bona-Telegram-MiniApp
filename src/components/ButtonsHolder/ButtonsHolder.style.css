@@ -1,0 +1,12 @@
+.holder__container {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: #262634;
+    border: 1px solid rgba(108, 108, 244, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}

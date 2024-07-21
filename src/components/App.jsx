@@ -7,8 +7,7 @@ import {
     initNavigator,
     useInitDataRaw,
     retrieveLaunchParams,
-    postEvent
-    
+    postEvent,
 } from '@telegram-apps/sdk-react';
 
 import { useIntegration } from '@telegram-apps/react-router-integration';
@@ -20,9 +19,12 @@ import { useAuthorize } from '../hooks/useAuthorize';
 
 export const App = () => {
     const miniApp = useMiniApp();
+
     const themeParams = useThemeParams();
     const vp = useViewport();
     const { initDataRaw, initData } = retrieveLaunchParams(); // for useAuthorization()
+
+    postEvent("web_app_setup_swipe_behavior", {allow_vertical_swipe: false});
 
     useEffect(() => {
         return bindMiniAppCSSVars(miniApp, themeParams);

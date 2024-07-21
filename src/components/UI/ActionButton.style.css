@@ -1,8 +1,23 @@
-.button__container {
+.btn__container {
+    width: 25vw;
+    height: 10vh;
+    border-radius: 3px;
+    border: 1px solid RGBA(255, 255, 255, 0.5);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 50%;
+}
+
+.btn__container img {
+    width: 30%;
+}
+
+.btn__title {
+    padding-top: 1vh;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 550;
 }
