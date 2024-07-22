@@ -1,5 +1,5 @@
 import "./ButtonsHolder.style.css"
-import { ActionButton } from "../UI/ActionButton";
+import { ActionButton } from "../UI/ActionButton/ActionButton";
 
 import love_letter from "../../assets/icons/love_letter.svg"
 import attention from "../../assets/icons/attention.svg"

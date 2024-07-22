@@ -1,6 +1,6 @@
 import "./MediaHolder.style.css";
 
-import img from "../../pages/2.jpg"
+import img from "../../pages/photo_test.jpeg"
 
 export const MediaHolder = () => {
     return (
