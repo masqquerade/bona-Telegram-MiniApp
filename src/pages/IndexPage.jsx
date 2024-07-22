@@ -13,8 +13,6 @@ export const IndexPage = () => {
                 <Header/>
             </div>
 
-            <TouchScreen/>
-
             <div className="page__arrows">
                 <ArrowsNavigator/>
             </div>

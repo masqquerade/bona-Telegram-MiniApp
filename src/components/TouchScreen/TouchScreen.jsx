@@ -1,13 +1,17 @@
+import { useState } from "react";
 import "./TouchScreen.style.css"
 
-export const TouchScreen = () => {
+import person from "../../pages/skala.jpg"
+import person2 from "../../pages/photo_test.jpeg"
+
+export const TouchScreen = ({ setPhoto }) => {
     const makeDecision = (decision) => {
         if (decision) {
-            console.log("like");
+            setPhoto(person);
             return;
         }
 
-        console.log("dislike");
+        setPhoto(person2);
     }
 
     return (

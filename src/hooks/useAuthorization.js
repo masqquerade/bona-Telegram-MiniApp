@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export const useAuthorize = (initDataRow) => {
+export const useAuthorization = (initDataRow) => {
     const [data, setData] = useState();
     
     useEffect(() => {

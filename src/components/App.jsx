@@ -15,7 +15,7 @@ import { useEffect, useMemo } from 'react';
 import { Route, Router, Routes, Navigate } from 'react-router-dom';
 
 import { routes } from '../routes/routes';
-import { useAuthorize } from '../hooks/useAuthorize';
+import { useAuthorization } from '../hooks/useAuthorization';
 
 export const App = () => {
     const miniApp = useMiniApp();
