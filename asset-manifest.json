@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bona2/static/css/main.cecd2e58.css",
-    "main.js": "/bona2/static/js/main.027b4951.js",
+    "main.js": "/bona2/static/js/main.a56f1ccc.js",
     "static/media/tg.png": "/bona2/static/media/tg.4ecebef28389ea13181a.png",
     "static/media/skala.jpg": "/bona2/static/media/skala.1ec32a16ebedebab93bb.jpg",
     "static/media/photo_test.jpeg": "/bona2/static/media/photo_test.d3603c80de2f270f5686.jpeg",
@@ -11,10 +11,10 @@
     "static/media/arrow_r.svg": "/bona2/static/media/arrow_r.fa52ade9365a6291a0873f3df692681a.svg",
     "index.html": "/bona2/index.html",
     "main.cecd2e58.css.map": "/bona2/static/css/main.cecd2e58.css.map",
-    "main.027b4951.js.map": "/bona2/static/js/main.027b4951.js.map"
+    "main.a56f1ccc.js.map": "/bona2/static/js/main.a56f1ccc.js.map"
   },
   "entrypoints": [
     "static/css/main.cecd2e58.css",
-    "static/js/main.027b4951.js"
+    "static/js/main.a56f1ccc.js"
   ]
 }
